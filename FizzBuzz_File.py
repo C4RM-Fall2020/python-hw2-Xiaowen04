@@ -2,7 +2,6 @@ import numpy as np
 
 def FizzBuzz(start, finish):
     nums = np.arange(start, finish + 1)
-    import numpy as np
     result = np.array(nums, dtype=object)
 
     result[nums % 3 == 0] = "fizz"
